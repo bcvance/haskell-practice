@@ -52,6 +52,7 @@ extra-doc-files:    CHANGELOG.md
 
 common warnings
     ghc-options: -Wall
+                 -Wno-type-defaults
 
 library
     -- Import common warning flags.
@@ -61,6 +62,7 @@ library
     exposed-modules:  MyLib
                       OtherLib
                       Ch4Exs
+                      Ch5Exs
 
     -- Modules included in this library but not exported.
     -- other-modules:
